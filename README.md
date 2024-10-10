@@ -20,6 +20,7 @@ This repository contains a collection of MongoDB Compose files that can be used 
 
     ```bash
     docker-compose up -d
+    docker exec mongodb-primary /scripts/rs-init.sh
     ```
 
 4. Access the MongoDB instance using your preferred MongoDB client.
